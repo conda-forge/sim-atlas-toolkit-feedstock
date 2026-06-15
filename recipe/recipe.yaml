@@ -29,6 +29,7 @@ requirements:
   run:
     - python >=${{ python_min }},<3.14
     - pydantic >=2
+    - griffe >=2
     - requests >=2
 
 tests:

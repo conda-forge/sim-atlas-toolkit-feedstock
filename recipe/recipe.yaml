@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sim-atlas-toolkit
-  version: "0.0.4"
+  version: "0.0.5"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sim-atlas-toolkit//sim_atlas_toolkit-${{ version }}.tar.gz
-  sha256: 3713c9237df89808f25e5a23cb36ac211893bb8de6894bcf3504ff9dd6448188
+  sha256: 9cb6dddd99429dd81f2d4080ff72ea1ef4751543af69d852fe30f2a0b7756191
 
 build:
   number: 0

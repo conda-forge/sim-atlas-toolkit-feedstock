@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sim-atlas-toolkit
-  version: "0.0.5"
+  version: "0.0.6"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sim-atlas-toolkit//sim_atlas_toolkit-${{ version }}.tar.gz
-  sha256: 9cb6dddd99429dd81f2d4080ff72ea1ef4751543af69d852fe30f2a0b7756191
+  sha256: 0548d72e3fb961e7900744b50ff3a05f959674eca3cab72ff6c0b0185c748181
 
 build:
   number: 0
@@ -30,7 +30,10 @@ requirements:
     - python >=${{ python_min }},<3.14
     - pydantic >=2
     - griffe >=2
-    - requests >=2
+    - httpx >=0.27
+    - pydantic-settings >=2
+    - tqdm >=4.68.4
+
 
 tests:
   - python:

@@ -146,6 +146,3 @@ Feedstock Maintainers
 
 * [@niklassiemer](https://github.com/niklassiemer/)
 
-
-<!-- dummy commit to enable rerendering -->
-

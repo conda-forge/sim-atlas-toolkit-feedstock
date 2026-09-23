@@ -30,9 +30,9 @@ requirements:
     - python >=${{ python_min }},<3.14
     - pydantic >=2
     - griffe >=2
-    - httpx >=0.27
+    - httpx2 >=2.13.0
     - pydantic-settings >=2
-    - tqdm >=4.60
+    - tqdm >=4
 
 tests:
   - python:
